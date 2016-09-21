@@ -11,7 +11,7 @@ set -pe
 # npm i geckodriver
 # npm i phantomjs
 
-# Use "Xvfd :10 ac & export DISPLAY=:10" for a headless browser
+# Use "Xvfb :10 ac & export DISPLAY=:10" for a headless browser
 
 node_modules/mocha/bin/mocha \
   --timeout 20000 \
